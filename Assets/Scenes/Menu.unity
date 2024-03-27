@@ -676,6 +676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audio: {fileID: 1607767839}
+  comer: {fileID: 8300000, guid: e5be2418136ca5240aa927f13744c5d4, type: 3}
 --- !u!4 &1607767841
 Transform:
   m_ObjectHideFlags: 0
