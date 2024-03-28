@@ -6,14 +6,14 @@ using UnityEngine.SceneManagement;
 public class AudioManager : GenericSingletonPersistant<AudioManager>
 {
     public AudioSource audio;
-    public AudioClip comer;
     public override void Awake()
     {
         base.Awake();
     }
-    public void PlayAudio()
+    public void PlayAudio(AudioClip comer)
     {
-        audio.Play();
+        audio.PlayOneShot(comer);
+        
     }
     public void ChargePlay()
     {

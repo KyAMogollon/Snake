@@ -11,6 +11,7 @@ public class Snake : MonoBehaviour
     public Transform segmentPrefab;
     public int initialSize = 4;
     public ScoreManager scoreManager;
+    public AudioClip audioComer;
     // Start is called before the first frame update
     void Start()
     {
@@ -82,6 +83,7 @@ public class Snake : MonoBehaviour
         {
             scoreManager.UpdateScore(1);
             Grow();
+            AudioManager.Instance.PlayAudio(audioComer);
             GameManager.Instance.GenerarComida();
             Destroy(collision.gameObject);
         }
