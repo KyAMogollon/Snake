@@ -765,7 +765,7 @@ MonoBehaviour:
   segmentPrefab: {fileID: 3396990730194006887, guid: d3adca151c04bff448d94fd84d011f3c, type: 3}
   initialSize: 4
   scoreManager: {fileID: 618026814}
-  comer: {fileID: 8300000, guid: e5be2418136ca5240aa927f13744c5d4, type: 3}
+  audioComer: {fileID: 8300000, guid: e5be2418136ca5240aa927f13744c5d4, type: 3}
 --- !u!212 &1347413793
 SpriteRenderer:
   m_ObjectHideFlags: 0
